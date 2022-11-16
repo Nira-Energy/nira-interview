@@ -1,7 +1,7 @@
 1. Install Rosetta.
-   ```softwareupdate --install-rosetta
-   ```
-   b. ![image](https://user-images.githubusercontent.com/3076437/202298215-59ce13b8-9513-4f5f-bead-336e40390ad5.png)
+```
+softwareupdate --install-rosetta
+```
 
 2. Create a Rosetta terminal
     a. duplicate Terminal.
