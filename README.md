@@ -4,6 +4,7 @@ First, fork the nira-interview repo into your own repo. You may need to install 
 
 1. <b>Install Pyenv to switch between different Python versions.</b> <br>
    https://github.com/pyenv/pyenv, windows: https://github.com/pyenv-win/pyenv-win
+   a. If you are using Apple M1 Mac, refer to this [doc](https://github.com/Nira-Energy/nira-interview/blob/main/setting_up_pyenv_on_m1_mac.md) to properly install `pyenv`. 
 2. <b>Install the python version specified in <code>/nira-interview/.python-version</code> using Pyenv.</b> <code> pyenv install 3.9.6 </code>
 3. <b>Navigate into the /nira-interview directory and double check that you've set up pyenv correct. </b> <br>
    When you run <code>python --version</code>, the version should match the version specified at <code>/nira-interview/.python-version</code>, which is 3.9.6 <br>
